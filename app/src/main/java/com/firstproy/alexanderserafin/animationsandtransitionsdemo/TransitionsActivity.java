@@ -51,6 +51,28 @@ public class TransitionsActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    startActivity(new Intent(TransitionsActivity.this, ConstraintsAnimationActivity.class),ActivityOptions.makeSceneTransitionAnimation(TransitionsActivity.this).toBundle());
+                } else {
+                    startActivity(new Intent(TransitionsActivity.this, ConstraintsAnimationActivity.class));
+                }
+            }
+        });
+
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    startActivity(new Intent(TransitionsActivity.this, SpringAnimationActivity.class),ActivityOptions.makeSceneTransitionAnimation(TransitionsActivity.this).toBundle());
+                } else {
+                    startActivity(new Intent(TransitionsActivity.this, SpringAnimationActivity.class));
+                }
+            }
+        });
+
     }
 
 }

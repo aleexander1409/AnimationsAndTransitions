@@ -28,7 +28,9 @@
         <activity
             android:name=".CircleRevealActivity"
             android:theme="@style/AppTheme.Transitions" />
-        <activity android:name=".RecyclerAnimationActivity"></activity>
+        <activity android:name=".RecyclerAnimationActivity" />
+        <activity android:name=".ConstraintsAnimationActivity" />
+        <activity android:name=".SpringAnimationActivity"></activity>
     </application>
 
 </manifest>
