@@ -9,3 +9,6 @@ Animaciones y transiciones  con el material design y contraint layout.
 
 # Recycler Animation
 ![Interfaz gráfica de la aplicación](https://raw.githubusercontent.com/aleexander1409/AnimationsAndTransitions/master/ezgif.com-video-to-gif-3.gif)
+
+# Constraint Animation
+![Interfaz gráfica de la aplicación](https://raw.githubusercontent.com/aleexander1409/AnimationsAndTransitions/master/ezgif.com-video-to-gif-4.gif)
